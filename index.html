@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Father's Day</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster:wght@400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Happy Father's Day!</h1>
+            <p class="hero-subtitle fade-in">A tribute to the greatest father forever</p>
+            <i class="fas fa-heart hero-heart"></i>
+        </div>
+        <div class="hero-background"></div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#introduction">About</a></li>
+            <li><a href="#timeline">Journey</a></li>
+            <li><a href="#reasons">Love</a></li>
+            <li><a href="#gallery">Memories</a></li>
+        </ul>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section class="introduction" id="introduction">
+        <div class="container">
+            <h2 class="section-title fade-in">Introduction to My Love for the Greatest Father Forever</h2>
+            <div class="intro-content fade-in">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="intro-text">
+                    Dada, You've always been such a huge inspiration for me. From the start, I always wanted to be an engineer like you. And yeah, over time my path has shifted a bit, but even with that, I've always looked to you as the example of the kind of man I want to become. The way you've handled life, your work, your family — I see it more clearly now than ever. Thank you for everything you've done — the talks, the advice, the moments you took out of your day to sit with me, even when you didn't have to. As I'm getting older, I'm realizing just how much respect I have for you, and how much I find myself naturally starting to follow your mindset, your values, and the way you approach life. I know I criticize and question a lot (maybe too much sometimes), but honestly — you've done an incredible job. And really, if you look at the outcome... well, you got me. Not too bad, right? 😂 But seriously, you've been more than just a great dad — you've been a true role model. And I don't think that's something that should stay unspoken. That's why I wanted to make this public — even up on my GitHub — so that no matter where life takes me, your name, your influence, and everything you've done for me will always be attached to my journey. And honestly, I couldn't be prouder of that. Love you, Dad. Thank you for everything.
+                </p>
+                <i class="fas fa-quote-right quote-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Journey Together</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2005</div>
+                    <div class="timeline-content">
+                        <h3>When I Couldn't Take Care of Myself</h3>
+                        <p>You were there when I couldn't take care of myself, protecting me and making sure I had everything I needed to grow.</p>
+                        <div class="timeline-photo" data-photo="baby-years">
+                            <i class="fas fa-baby"></i>
+                            <span>Photo</span>
+                            <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="photo-2005">
+                            <button class="upload-btn" onclick="document.getElementById('photo-2005').click()">Add Photo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2010</div>
+                    <div class="timeline-content">
+                        <h3>Curious and at My Peak</h3>
+                        <p>You were there when I was curious and at my peak, answering all my endless questions and nurturing my growing mind.</p>
+                        <div class="timeline-photo" data-photo="curious-years">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Photo</span>
+                            <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="photo-2010">
+                            <button class="upload-btn" onclick="document.getElementById('photo-2010').click()">Add Photo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2015</div>
+                    <div class="timeline-content">
+                        <h3>Science Projects and Learning</h3>
+                        <p>You stuck with me helping me with science projects, patiently explaining concepts and encouraging my love for discovery.</p>
+                        <div class="timeline-photo" data-photo="science-years">
+                            <i class="fas fa-flask"></i>
+                            <span>Photo</span>
+                            <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="photo-2015">
+                            <button class="upload-btn" onclick="document.getElementById('photo-2015').click()">Add Photo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2020</div>
+                    <div class="timeline-content">
+                        <h3>Supporting My Dreams</h3>
+                        <p>Always helped me with whatever my dreams were (even if they were crazy), helping me with my music career and believing in my path.</p>
+                        <div class="timeline-photo" data-photo="music-years">
+                            <i class="fas fa-music"></i>
+                            <span>Photo</span>
+                            <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="photo-2020">
+                            <button class="upload-btn" onclick="document.getElementById('photo-2020').click()">Add Photo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">Now</div>
+                    <div class="timeline-content">
+                        <h3>Until Forever</h3>
+                        <p>And now until forever, you are always there, whether I need motivation or a shoulder to cry on. My constant support system.</p>
+                        <div class="timeline-photo" data-photo="forever-years">
+                            <i class="fas fa-infinity"></i>
+                            <span>Photo</span>
+                            <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="photo-now">
+                            <button class="upload-btn" onclick="document.getElementById('photo-now').click()">Add Photo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="reasons-section" id="reasons">
+        <div class="container">
+            <h2 class="section-title fade-in">Reasons Why I Love You</h2>
+            <div class="reasons-grid">
+                <div class="reason-card fade-in">
+                    <i class="fas fa-star"></i>
+                    <h3>You always believe in me</h3>
+                    <p>Even when I doubt myself, your faith in me gives me the strength to keep going.</p>
+                </div>
+                
+                <div class="reason-card fade-in">
+                    <i class="fas fa-laugh"></i>
+                    <h3>You make me laugh no matter what</h3>
+                    <p>Your sense of humor brightens even the darkest days and fills our home with joy.</p>
+                </div>
+                
+                <div class="reason-card fade-in">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>You work so hard to give us a good life</h3>
+                    <p>Your dedication and sacrifice for our family never goes unnoticed or unappreciated.</p>
+                </div>
+                
+                <div class="reason-card fade-in">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>You give the best advice</h3>
+                    <p>Your wisdom and guidance have shaped who I am and helped me navigate life's challenges.</p>
+                </div>
+                
+                <div class="reason-card fade-in">
+                    <i class="fas fa-home"></i>
+                    <h3>You always put family first</h3>
+                    <p>Your commitment to our family is unwavering, and it's the foundation of our happiness.</p>
+                </div>
+                
+                <div class="reason-card fade-in">
+                    <i class="fas fa-star"></i>
+                    <h3>He's a role model</h3>
+                    <p>I want to follow in his footsteps and become the kind of man he is. His integrity, wisdom, and the way he handles life's challenges inspire me every day. The values he's shown me and the example he sets make me want to live up to his standard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title fade-in">Special Moments</h2>
+            <div class="photo-gallery">
+                <div class="gallery-item fade-in">
+                    <div class="photo-placeholder" data-gallery="bonding">
+                        <i class="fas fa-camera"></i>
+                        <span>Photo</span>
+                        <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="gallery-1">
+                        <button class="upload-btn" onclick="document.getElementById('gallery-1').click()">Add Photo</button>
+                    </div>
+                    <p>Father and child bonding</p>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <div class="photo-placeholder" data-gallery="birthday">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>Photo</span>
+                        <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="gallery-2">
+                        <button class="upload-btn" onclick="document.getElementById('gallery-2').click()">Add Photo</button>
+                    </div>
+                    <p>Birthday celebrations</p>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <div class="photo-placeholder" data-gallery="adventure">
+                        <i class="fas fa-mountain"></i>
+                        <span>Photo</span>
+                        <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="gallery-3">
+                        <button class="upload-btn" onclick="document.getElementById('gallery-3').click()">Add Photo</button>
+                    </div>
+                    <p>Adventure together</p>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <div class="photo-placeholder" data-gallery="games">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Photo</span>
+                        <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="gallery-4">
+                        <button class="upload-btn" onclick="document.getElementById('gallery-4').click()">Add Photo</button>
+                    </div>
+                    <p>Fun and games</p>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <div class="photo-placeholder" data-gallery="dinner">
+                        <i class="fas fa-utensils"></i>
+                        <span>Photo</span>
+                        <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="gallery-5">
+                        <button class="upload-btn" onclick="document.getElementById('gallery-5').click()">Add Photo</button>
+                    </div>
+                    <p>Family dinners</p>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <div class="photo-placeholder" data-gallery="occasions">
+                        <i class="fas fa-gift"></i>
+                        <span>Photo</span>
+                        <input type="file" class="photo-upload" accept="image/*" style="display: none;" id="gallery-6">
+                        <button class="upload-btn" onclick="document.getElementById('gallery-6').click()">Add Photo</button>
+                    </div>
+                    <p>Special occasions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                <i class="fas fa-heart"></i>
+                With love, forever your child
+                <i class="fas fa-heart"></i>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
